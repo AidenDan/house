@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f62fdf19-8c05-4e0b-8660-1eec1ddcf881" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aNewBranch.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/HouseApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="G:\javaproject\house" />
+        <option value="G:\javaproject\house\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="G:/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="G:\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XD46TGFgm4sULdkszn3Md3sCEo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../house_project" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="jprofiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\javaproject\house\src\main\resources\templates\admin" />
+      <recent name="G:\javaproject\house\src\main\resources\templates\fore" />
+      <recent name="G:\javaproject\house\src\main\java\com\fore\users\service" />
+      <recent name="G:\javaproject\house\src\main\java\com\fore\type\service" />
+      <recent name="G:\javaproject\house\src\main\java\com\fore\street\service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.config" />
+      <recent name="com.fore.users.controller" />
+      <recent name="com.admin.users.controller" />
+      <recent name="com.admin.users.service.impl" />
+      <recent name="com.admin.users.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\javaproject\house\src\main\resources\templates\public" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.HouseApplication">
+    <configuration name="HouseApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="house" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com" />
+      <option name="MAIN_CLASS_NAME" value="com.HouseApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HouseApplicationTests.contextLoads01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="house" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com" />
+      <option name="MAIN_CLASS_NAME" value="com.HouseApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HouseApplicationTests.contextLoads02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="house" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com" />
+      <option name="MAIN_CLASS_NAME" value="com.HouseApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HouseApplicationTests.contextLoads03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="house" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com" />
+      <option name="MAIN_CLASS_NAME" value="com.HouseApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HouseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="house" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.HouseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HouseApplicationTests.contextLoads03" />
+        <item itemvalue="JUnit.HouseApplicationTests.contextLoads02" />
+        <item itemvalue="JUnit.HouseApplicationTests.contextLoads01" />
+        <item itemvalue="JUnit.HouseApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f62fdf19-8c05-4e0b-8660-1eec1ddcf881" name="Default Changelist" comment="" />
+      <created>1580567155956</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580567155956</updated>
+      <workItem from="1580567162437" duration="7288000" />
+      <workItem from="1580612856046" duration="84332000" />
+      <workItem from="1580779764181" duration="30859000" />
+      <workItem from="1580908479686" duration="3584000" />
+      <workItem from="1581063186897" duration="6322000" />
+      <workItem from="1581137676729" duration="7770000" />
+      <workItem from="1581145469433" duration="5356000" />
+      <workItem from="1581395746937" duration="2901000" />
+      <workItem from="1581561409379" duration="29709000" />
+      <workItem from="1581661606805" duration="6635000" />
+      <workItem from="1581741803541" duration="7032000" />
+      <workItem from="1584426586254" duration="2592000" />
+      <workItem from="1584794706935" duration="623000" />
+      <workItem from="1584863762741" duration="5067000" />
+      <workItem from="1585194899361" duration="1661000" />
+      <workItem from="1585312837489" duration="22000" />
+      <workItem from="1585313045674" duration="51000" />
+      <workItem from="1585571430443" duration="128000" />
+      <workItem from="1585571605711" duration="70000" />
+      <workItem from="1586054653765" duration="3633000" />
+      <workItem from="1586183122285" duration="1915000" />
+      <workItem from="1586745075881" duration="1895000" />
+      <workItem from="1586953230864" duration="8750000" />
+      <workItem from="1587187740934" duration="912000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1581586651719">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1581586651719" />
+    <state x="713" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1580569155001">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="713" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1580569155001" />
+    <state x="132" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580634815703">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="132" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1580634815703" />
+    <state x="1096" y="258" key="#xdebugger.evaluate" timestamp="1586964351765">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1096" y="258" key="#xdebugger.evaluate/0.0.1920.1050@0.0.1920.1050" timestamp="1586964351765" />
+    <state x="767" y="273" key="FileChooserDialogImpl" timestamp="1586183249989">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="767" y="273" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1586183249989" />
+    <state x="842" y="420" width="260" height="209" key="Github.ShareDialog" timestamp="1587187973341">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="842" y="420" width="260" height="209" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1587187973341" />
+    <state x="638" y="233" key="Github.UntrackedFilesDialog" timestamp="1587188072193">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="638" y="233" key="Github.UntrackedFilesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1587188072193" />
+    <state width="1881" height="230" key="GridCell.Tab.0.bottom" timestamp="1586967242259">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1881" height="230" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1586967242259" />
+    <state width="1881" height="230" key="GridCell.Tab.0.center" timestamp="1586967242259">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1881" height="230" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1586967242259" />
+    <state width="1881" height="230" key="GridCell.Tab.0.left" timestamp="1586967242259">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1881" height="230" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1586967242259" />
+    <state width="1881" height="230" key="GridCell.Tab.0.right" timestamp="1586967242259">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1881" height="230" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1586967242259" />
+    <state width="1881" height="230" key="GridCell.Tab.1.bottom" timestamp="1586967242259">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1881" height="230" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1586967242259" />
+    <state width="1881" height="230" key="GridCell.Tab.1.center" timestamp="1586967242259">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1881" height="230" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1586967242259" />
+    <state width="1881" height="230" key="GridCell.Tab.1.left" timestamp="1586967242259">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1881" height="230" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1586967242259" />
+    <state width="1881" height="230" key="GridCell.Tab.1.right" timestamp="1586967242259">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1881" height="230" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1586967242259" />
+    <state width="1881" height="230" key="GridCell.Tab.2.bottom" timestamp="1586967242260">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1881" height="230" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1586967242260" />
+    <state width="1881" height="230" key="GridCell.Tab.2.center" timestamp="1586967242259">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1881" height="230" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1586967242259" />
+    <state width="1881" height="230" key="GridCell.Tab.2.left" timestamp="1586967242259">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1881" height="230" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1586967242259" />
+    <state width="1881" height="230" key="GridCell.Tab.2.right" timestamp="1586967242260">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1881" height="230" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1586967242260" />
+    <state x="490" y="182" key="Maven.ArtifactSearchDialog" timestamp="1580783098883">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="490" y="182" key="Maven.ArtifactSearchDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1580783098883" />
+    <state x="496" y="162" key="SettingsEditor" timestamp="1581063543075">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="496" y="162" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1581063543075" />
+    <state x="520" y="263" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1586960397389">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="520" y="263" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1050@0.0.1920.1050" timestamp="1586960397389" />
+    <state x="613" y="301" key="extract.method.dialog" timestamp="1580627678053">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="613" y="301" key="extract.method.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1580627678053" />
+    <state x="331" y="156" key="new project wizard" timestamp="1581750928001">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="331" y="156" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1581750928001" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1580788630958">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1580788630958" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="model" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
