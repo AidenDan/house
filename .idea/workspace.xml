@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f62fdf19-8c05-4e0b-8660-1eec1ddcf881" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotfixBranch.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/HouseApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/admin/district/controller/AdminDistrictController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/admin/district/service/AdminDistrictService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/admin/district/service/impl/AdminDistrictServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/admin/house/controller/AdminHouseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/admin/house/service/AdminHouseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/admin/house/service/impl/AdminHouseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/admin/street/controller/AdminStreetController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/admin/street/service/AdminStreetService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/admin/street/service/impl/AdminStreetServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/admin/type/controller/AdminTypeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/admin/type/service/AdminTypeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/admin/type/service/impl/AdminTypeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/admin/users/controller/AdminUsersController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/admin/users/service/AdminUsersService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/admin/users/service/impl/AdminUsersServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/condition/UsersCondition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/config/LoginInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/config/PageHelperInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/config/WebConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/config/WebConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fore/district/controller/ForeDistrictController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fore/district/service/ForeDistrictService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fore/district/service/impl/ForeDistrictServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fore/house/controller/ForeHouseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fore/house/service/ForeHouseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fore/house/service/impl/ForeHouseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fore/street/controller/ForeStreetController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fore/street/service/ForeStreetService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fore/street/service/impl/ForeStreetServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fore/type/controller/ForeTypeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fore/type/service/ForeTypeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fore/type/service/impl/ForeTypeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fore/users/controller/ForeUsersController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fore/users/service/ForeUsersService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fore/users/service/impl/ForeUsersServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mapper/DistrictMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mapper/HouseMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mapper/StreetMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mapper/TypeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mapper/UsersMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/District.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/House.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/HouseMoreInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/Street.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/Type.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/Users.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/HttpClientUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/MD5Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/PageUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/images/validatebox_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/black/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/images/validatebox_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/bootstrap/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/images/validatebox_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/default/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/images/validatebox_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/gray/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/icons/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/icons/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/icons/cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/icons/cut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/icons/edit_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/icons/edit_remove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/icons/filesave.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/icons/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/icons/mini_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/icons/mini_edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/icons/mini_refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/icons/no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/icons/ok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/icons/pencil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/icons/print.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/icons/redo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/icons/reload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/icons/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/icons/sum.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/icons/tip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/icons/undo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/images/validatebox_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/easyUI/themes/metro/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/CategorizeMenu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/ShowCustomPropertiesPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/TableDrawTable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/blocks.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/directory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/layout-browser-hd-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/nav_link.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/noscript.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/plugin_big.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/tabicons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/images/tools-sprites-trans.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/MyEasyUICRUD.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/jquery-1.8.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/jquery.easyui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/admin/js/outlook2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/fore/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/fore/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/fore/images/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/fore/images/ss.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/fore/images/thumb_house.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/fore/images/wx_icp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/fore/js/MyEasyUICRUD.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/fore/js/jquery-1.8.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/fore/js/jquery.easyui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/fore/js/outlook2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/fore/scripts/dojoRequire.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/fore/scripts/function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/fore/scripts/struts_dojo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/fore/scripts/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/fore/scripts/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/fore/scripts/validation(1).js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/fore/scripts/validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/adminlogin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/district.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/err.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/regs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/street.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/studentData.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/stuman.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/type.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/unverified.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/verified.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/admin/verify.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/fore/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/fore/err.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/fore/fabu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/fore/fabu2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/fore/guanli.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/fore/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/fore/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/fore/login2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/fore/regs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/fore/timeout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/HouseApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="G:/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="G:\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ahZOQNoTMw2hcNZnm2rt7UI1LF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="HouseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="house" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.HouseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f62fdf19-8c05-4e0b-8660-1eec1ddcf881" name="Default Changelist" comment="" />
+      <created>1587189754041</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587189754041</updated>
+      <workItem from="1587189755478" duration="429000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="739" y="282" key="FileChooserDialogImpl" timestamp="1587189921357">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="739" y="282" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1587189921357" />
+    <state x="468" y="171" key="SettingsEditor" timestamp="1587189922829">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="468" y="171" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1587189922829" />
+  </component>
+</project>
