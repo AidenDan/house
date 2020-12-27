@@ -23,7 +23,7 @@ import java.util.*;
 @Component
 public class LoginInterceptor extends HandlerInterceptorAdapter {
 
-    Logger logger = LoggerFactory.getLogger(LoginInterceptor.class);
+    Logger logger = LoggerFactory.getLogger(LoginInterceptor.class.getName());
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {

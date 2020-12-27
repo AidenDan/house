@@ -158,8 +158,8 @@ public class AdminUsersServiceImpl implements AdminUsersService {
         Example example = new Example(Users.class);
         Example.Criteria criteria = example.createCriteria();
         criteria.andEqualTo("name", name);
-        String pwd = MD5Utils.md5Encrypt(password);
-        criteria.andEqualTo("password", pwd);
+//        String pwd = MD5Utils.md5Encrypt(password);
+        criteria.andEqualTo("password", password);
         criteria.andEqualTo("isadmin", 1);
         List<Users> usersList = usersMapper.selectByExample(example);
         if  (usersList !=null && usersList.size()>0)

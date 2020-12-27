@@ -1,6 +1,7 @@
 package com.fore.house.controller;
 
 import com.condition.UsersCondition;
+import com.exceptionHandler.MyExceptionHandler;
 import com.fore.house.service.ForeHouseService;
 import com.github.pagehelper.PageInfo;
 import com.pojo.House;
@@ -49,15 +50,7 @@ public class ForeHouseController {
             String originalFilename = pfile.getOriginalFilename();
             //截取图片后缀名
             assert originalFilename != null;
-            String substringEndName = originalFilename.substring(originalFilename.lastIndexOf("."));
-            Calendar calendar = Calendar.getInstance();
-            String year = calendar.get(Calendar.YEAR) +"";
-            String month = calendar.get(Calendar.MONTH)+1 +"";
-            String day = calendar.get(Calendar.DAY_OF_MONTH) +"";
-            String hour = calendar.get(Calendar.HOUR_OF_DAY)+"";
-            String minute = calendar.get(Calendar.MINUTE)+"";
-            String second = calendar.get(Calendar.SECOND)+"";
-            String path1 = year+ month + day + hour + minute + second +substringEndName;
+            String path1 = getPath(originalFilename);
             String path2 = "G:/upLoadFile/";
             /*nginx做图片代理服务器*/
             String path =path2 + path1;
@@ -125,15 +118,7 @@ public class ForeHouseController {
             String originalFilename = pfile.getOriginalFilename();
             //截取图片后缀名
             assert originalFilename != null;
-            String substringEndName = originalFilename.substring(originalFilename.lastIndexOf("."));
-            Calendar calendar = Calendar.getInstance();
-            String year = calendar.get(Calendar.YEAR) +"";
-            String month = calendar.get(Calendar.MONTH)+1 +"";
-            String day = calendar.get(Calendar.DAY_OF_MONTH) +"";
-            String hour = calendar.get(Calendar.HOUR_OF_DAY)+"";
-            String minute = calendar.get(Calendar.MINUTE)+"";
-            String second = calendar.get(Calendar.SECOND)+"";
-            String path1 = year+ month + day + hour + minute + second +substringEndName;
+            String path1 = getPath(originalFilename);
             String path2 = "G:/upLoadFile/";
             /*nginx做图片代理服务器*/
             String path =path2 + path1;
@@ -154,6 +139,18 @@ public class ForeHouseController {
             model.addAttribute("msg04", "fail");
         }
         return "fore/fabu2";
+    }
+
+    private String getPath(String originalFilename) {
+        String substringEndName = originalFilename.substring(originalFilename.lastIndexOf("."));
+        Calendar calendar = Calendar.getInstance();
+        String year = calendar.get(Calendar.YEAR) + "";
+        String month = calendar.get(Calendar.MONTH) + 1 + "";
+        String day = calendar.get(Calendar.DAY_OF_MONTH) + "";
+        String hour = calendar.get(Calendar.HOUR_OF_DAY) + "";
+        String minute = calendar.get(Calendar.MINUTE) + "";
+        String second = calendar.get(Calendar.SECOND) + "";
+        return year + month + day + hour + minute + second + substringEndName;
     }
 
     //下架该房源，把isdel设为1
@@ -177,9 +174,20 @@ public class ForeHouseController {
             return "fore/err";
     }
 
-    //分页动态查到当前登录用户的所有房屋信息，显示到网站的主页上给浏览者看
+    /**
+     * 分页动态查到当前登录用户的所有房屋信息，显示到网站的主页上给浏览者看
+     *
+     * @param pageNum 当前页
+     * @param model 模型封装数据
+     * @param condition 查询条件
+     * @return 返回房屋信息显示主页
+     */
     @RequestMapping("/listHouse")
     public String listHouse(@RequestParam(defaultValue = "1") Integer pageNum, Model model, UsersCondition condition){
+        if(true){
+            throw new MyExceptionHandler("400", "服务器异常");
+        }
+//        int j = 10/0;
        /* Users users =(Users) session.getAttribute("users");
         if(users == null){
             return "/page/timeout.html";

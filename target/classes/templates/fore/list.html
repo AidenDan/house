@@ -1,0 +1,176 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0030)http://localhost:8080/House-2/ -->
+<HTML xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"><HEAD><TITLE>青鸟租房 - 首页</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<LINK rel=stylesheet type=text/css href="../fore/css/style.css">
+  <script src="../fore/js/jquery-1.8.3.js"></script>
+<META name=GENERATOR content="MSHTML 8.00.7601.17514"></HEAD>
+<BODY>
+<DIV id=header class=wrap>
+<DIV id=logo><IMG src="../fore/images/logo.gif"></DIV></DIV>
+<DIV id=navbar class=wrap>
+<DL class="search clearfix">
+  <FORM id=sform method=post action="${pageContext.request.contextPath}/h/listHouse" th:action="@{../h/listHouse}">
+<!--<%&#45;&#45;    <div style="width: 1000px; border: 1px solid red ; margin: auto; text-align: center" >&#45;&#45;%>-->
+       <span style="color: red">房屋信息:</span>
+       <input type="hidden" name="pageNum" id="pageNum">
+      <br>
+      标题:<input id="ctitle" type="text" name="ctitle" value="${requestScope.condition.ctitle}" th:value="${condition.ctitle}">&nbsp;&nbsp;&nbsp;&nbsp;
+      价格:<input type="text" id="cprice1" name="cprice1" value="${requestScope.condition.cprice1}" th:value="${condition.cprice1}"> ---> <input type="text" id="cprice" name="cprice" value="${requestScope.condition.cprice}" th:value="${condition.cprice}">
+      <br>
+      <span style="color: red">房屋位置:</span> <br>
+<!--      <input type="hidden" value="" id="cdistrictIdName" name="cdistrictName">-->
+      区域:<SELECT class=text name=cdistrictId id="cdistrictId" >
+      <option value="-1"  >请选择</option>
+      <!--<option value="" th:if="${condition.cdistrictName eq '上海'}" th:selected="${true}" th:value="${condition.cdistrictId}">上海</option>
+      <option value="" th:if="${condition.cdistrictName eq '北京'}" th:selected="${true}" th:value="${condition.cdistrictId}">北京</option>
+      <option value="" th:if="${condition.cdistrictName eq '底特律'}" th:selected="${true}"  th:value="${condition.cdistrictId}">底特律</option>
+      <option value="" th:if="${condition.cdistrictName eq '吉隆坡'}" th:selected="${true}"  th:value="${condition.cdistrictId}">吉隆坡</option>
+      <option value="" th:if="${condition.cdistrictName eq '皇后区'}"  th:selected="${true}" th:value="${condition.cdistrictId}">皇后区</option>
+      <option value="" th:if="${condition.cdistrictName eq '韩城区'}"  th:selected="${true}" th:value="${condition.cdistrictId}">韩城区</option>
+      <option value="" th:if="${condition.cdistrictName eq '平安区'}"  th:selected="${true}" th:value="${condition.cdistrictId}">平安区</option>
+      <option value="" th:if="${condition.cdistrictName eq '大魏'}" th:selected="${true}"  th:value="${condition.cdistrictId}">大魏</option>
+      <option value="" th:if="${condition.cdistrictName eq '大暑'}" th:selected="${true}"  th:value="${condition.cdistrictId}">大暑</option>
+      <option value="" th:if="${condition.cdistrictName eq '昆明'}"  th:selected="${true}" th:value="${condition.cdistrictId}">昆明</option>
+      <option value="" th:if="${condition.cdistrictName eq '大理'}" th:selected="${true}"  th:value="${condition.cdistrictId}">大理</option>
+      <option value="" th:if="${condition.cdistrictName eq '沙丘'}"  th:selected="${true}" th:value="${condition.cdistrictId}">沙丘</option>
+      <option value="" th:if="${condition.cdistrictName eq '冬拐'}"  th:selected="${true}" th:value="${condition.cdistrictId}">冬拐</option>-->
+      <!--<option th:each="h:${pageInfo.list}"  th:value="${h.districtId}" th:text="${h.districtName}" th:selected="${h.districtName eq condition.cdistrictName}" ></option>-->
+  </SELECT>&nbsp;&nbsp;&nbsp;&nbsp;
+<!--      <input type="hidden" value="" id="cstreetIdName" name="cstreetName">-->
+      街道:<SELECT class=text name=cstreetId id="cstreetId" >
+            <option value="-1">请选择</option>
+    </SELECT>&nbsp;&nbsp;&nbsp;&nbsp;
+<!--      <input type="hidden" value="" id="ctypeIdName" name="ctypeName">-->
+      房型:<SELECT class=text name=ctypeId id="ctypeId" >
+      <option value="-1">请选择</option>
+    </SELECT>&nbsp;&nbsp;&nbsp;&nbsp;
+      面积:<input type="text" id="cfloorage1" name="cfloorage1" value="${requestScope.condition.cfloorage1}" th:value="${condition.cfloorage1}"> ---> <input type="text" id="cfloorage" name="cfloorage" value="${requestScope.condition.cfloorage}" th:value="${condition.cfloorage}">
+     &nbsp;&nbsp;&nbsp;&nbsp;<LABEL class=ui-blue><input type="submit" value="搜索房屋"></LABEL>
+  </FORM></DL>
+
+</DIV>
+<DIV class="main wrap">
+<TABLE class=house-list>
+  <TBODY>
+  <!--<c:forEach var="h" items="${requestScope.pageInfo.list}">-->
+    <TR th:each="h:${pageInfo.list}">                                                                                                                             <!--<%&#45;&#45;在nginx里面设置了代理路径/代表了G:/upLoadFile/&#45;&#45;%>-->
+      <TD class=house-thumb><SPAN><A href="#" target="_blank"><img src="http://localhost:80/${h.path}" th:src="@{http://localhost:80/}+${h.path}" width="100" height="75" alt=""></A></SPAN></TD>
+      <TD>
+        <DL>
+          <DT><A href="#" target="_blank">[[${h.title}]]</A>&nbsp;&nbsp;&nbsp;&nbsp;
+              <span style="color: red" th:text="${h.ispass}=='1'?'已经审核':'未审核'"></span>
+            <!--<c:if test="${h.ispass  eq '1'}">
+              <span style="color: red">${"已经审核"}</span>
+            </c:if>
+            <c:if test="${h.ispass  eq '0'}">
+              <span style="color: red">${"未审核"}</span>
+            </c:if>-->
+          </DT>
+          <DD>房屋编号：[[${h.id}]]，[[${h.districtName}]]，[[${h.streetName}]]，[[${h.floorage}]]平米<BR>价格：￥[[${h.price}]]，联系方式：[[${h.contact}]]</DD></DL></TD>
+      <TD class=house-type><LABEL class=ui-green><INPUT onclick='location.href=""' value="收    藏" type=button name=search></LABEL></TD>
+
+        <TD class=house-price><LABEL class=ui-green><input type="hidden" th:value="${h.id}" id="hid"><input
+                name=search th:onclick="detail([[${h.id}]])" type="button" value="详  情"></LABEL></TD>
+    </TR>
+  <!--</c:forEach>-->
+  </TBODY></TABLE>
+<DIV class=pager>
+<UL>
+  <LI class=current><A href="javascript:goPage(1)">首页</A></LI>
+  <LI><A href="javascript:goPage(${pageInfo.prePage})" th:href="'javascript:goPage('+${pageInfo.prePage}+')'">上一页</A></LI>
+  <LI><A href="javascript:goPage(${pageInfo.pageNum+1})" th:href="'javascript:goPage('+${pageInfo.pageNum+1}+')'">下一页</A></LI>
+  <LI><A href="javascript:goPage(${pageInfo.lastPage})" th:href="'javascript:goPage('+${pageInfo.lastPage}+')'">末页</A></LI></UL><SPAN
+class=total>[[${pageInfo.pageNum}]]/[[${pageInfo.pages}]]页</SPAN> </DIV></DIV>
+<DIV id=footer class=wrap>
+<DL>
+  <DT>汉房租房 © 2019 汉房集团 京ICP证1000001号</DT>
+  <DD>关于我们 · 联系方式 · 意见反馈 · 帮助中心</DD></DL></DIV></BODY>
+<!--隐藏域接受值-->
+<!--<input type="hidden" th:value="${condition.cdistrictId}" id="did">
+<input type="hidden" th:value="${condition.cstreetId}" id="sid">
+<input type="hidden" th:value="${condition.ctypeId}" id="tid">-->
+<script>
+    //$("#cdistrictId").change(function (){
+        //获取区域显示值
+       // $("#cdistrictIdName").val($("#cdistrictId option:checked").text());
+   // })
+
+
+   /* $(function () {
+        //var myId = $("#myid").val();   // 获取select value值
+        //获取房型的显示值
+        var myIdName = $("#ctypeId option:checked").text();  // 获取select 显示值
+        $("#ctypeIdName").val(myIdName);
+
+        //获取街道显示值
+        $("#cstreetIdName").val($("#cstreetId option:checked").text());*/
+
+
+
+
+</script>
+<script>
+  //分页查询
+  function goPage(page) {
+    $("#pageNum").val(page);
+    $("#sform").submit();
+  }
+</script>
+<!--<script th:inline="javascript">
+  $(function () {
+    $("#cprice1").val([[${condition.cprice1}]]);
+    $("#cprice").val([[${condition.cprice}]]);
+   /* $("#cdistrictId").val([[${condition.cdistrictId}]]);
+    $("#cstreetId").val([[${condition.cstreetId}]]);
+    $("#ctypeId").val([[${condition.ctypeId}]]);*/
+    $("#cfloorage1").val([[${condition.cfloorage1}]]);
+    $("#cfloorage").val([[${condition.cfloorage}]]);
+  })
+</script>-->
+<script>
+        $("#cdistrictId").val($("#did").val());
+        $("#cstreetId").val($("#sid").val());
+        $("#ctypeId").val($("#tid").val());
+</script>
+<script>
+  $(function () {
+    $.post (
+            "/t/getType",
+            null,
+            function (data) {
+              $.each(data, function (i, e) {
+                $("#ctypeId").append("<option value='"+e.id+"'>"+e.name+"</option>")
+              })
+            }, "json"
+    );
+    $.post(
+            "/d/getAllDistrict",
+            null,
+            function (data) {
+              $.each(data, function (i, e) {
+                $("#cdistrictId").append("<option  value='"+e.id+"'>"+e.name+"</option>");
+              })
+            }, "json"
+    );
+    /*区域与街道的级联操作*/
+    $("#cdistrictId").change(function () {
+      $("#cstreetId > option:gt(0)").remove();
+      $.post(
+              "/s/getStreet",
+              {"districtId":$(this).val()},
+              function (data) {
+                $.each(data, function (i, e) {
+                  $("#cstreetId").append("<option value='"+e.id+"'>"+e.name+"</option>");
+                });
+              }, "json"
+      )
+    })
+  })
+</script>
+<script type="text/javascript">
+    function detail(id) {
+        window.location.href="../h/detailsHouse?houseId="+id;
+    }
+</script>
+</HTML>
